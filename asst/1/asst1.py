@@ -39,7 +39,7 @@ def sortcat(num, *strings):
 		for index in xrange(len(strings)):
 			final_str += sorted_args[index]
 	else:
-		for index in xrange(num):
+		for inde1x in xrange(num):
 			final_str += sorted_args[index]
 
 	return final_str
